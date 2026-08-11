@@ -5,36 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./Bootstrap/css/bootstrap.min.css">
-    <style>
-        .col{
-            margin: 10px;
-            padding: 20px;
+   <style>
+    .row {
+            margin-top: 20px;
+        }
+        .row > div {
+            padding-top: 1rem;
+            padding-bottom: 1rem;
             background-color: red;
-            border-radius: 5px;
-            color: white;
+            border: 1px solid white; 
             text-align: center;
+            color: white; 
         }
     </style>
 </head>
 <body>
 
-
     <h1>Salom dunyo</h1>
-      <div class="alert alert-info">Men bootstrap</div>
+    <div class="alert alert-info">Men bootstrap</div>
     
-   
-
-  <div class="container">
-    <div class="row">1</div>
-    <div class="col">2</div>
-    <div class="col-6">3</div>
-    <div class="col">4</div>
-    <div class="row">5</div>
-    <div class="col-2">5</div>
-    <div class="col-2">5</div>
-    <div class="col-8">5</div>
-
-  </div>
+    <div class="container">
+        <!-- Barcha ustunlar .row ichida bo'lishi shart -->
+        <div class="row">
+            <div class="col-2">1</div>
+            <div class="col-2">2</div>
+            <div class="col-6">3</div>
+            <div class="col-2">4</div>
+        </div>
+        <div class="row">
+            <div class="col-3">1</div>
+            <div class="col-3">2</div>
+            <div class="col-6">3</div>
+            <div class="col">4</div>
+        </div>
+    </div>
 
 
 
